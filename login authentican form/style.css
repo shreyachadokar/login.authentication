@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+ body{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   min-height: 100vh ;
+   background:linear-gradient(to right,#f64f59, #cc11c6, #12c2e9);
+ }
+
+ 
+ 
+ .password {
+    font-size: 20px;
+    border:0;
+    background:none;
+    display:block;
+    margin:14px auto;
+    text-align: center;
+    border:3px solid #0367fd;
+    padding:14px 10px;
+    width:220px;
+    outline:none;
+    color:#fff;
+    border-radius:10px;
+    transition:all .2s ease-in;  
+ }
+ .username {
+    font-size: 20px;
+    border:0;
+    background:none;
+    display:block;
+    margin:14px auto;
+    text-align: center;
+    border:3px solid #0367fd;
+    padding:14px 10px;
+    width:220px;
+    outline:none;
+    color:#bd218e;
+    border-radius : 10px;
+    transition:all .2s ease-in;  
+ }
+ .wrapper {
+    position:relative;
+    width: 400px;
+    height:300px;
+    background:rgba(255,255,255,.2);
+    border-radius: 20px;
+    box-shadow:0 0 50px rgpa(0,0,0,.1);
+    padding:40px;
+ }
+    
+    
+
+
+ h1{
+    font-size:30px;
+    color:#fff;
+    text-align: center;
+    text-transform:uppercase;
+
+ }
+ #btn{
+    font-size:20px;
+    border:0;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align:center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 35px;
+    color:rgb(256,256,256);
+    border-radius: 20px;
+    transition:all .2s ease-in;
+    cursor:pointer;
+ }
+ #btn:hover{
+   background-color:#ffc400ec;
+ }
